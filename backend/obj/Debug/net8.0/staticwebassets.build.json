@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yHAyyCGjuLGCfsGH9CC0e2mOwq9/ALrWlmRRSUn7xNs=",
+  "Source": "DarynChat.API",
+  "BasePath": "_content/DarynChat.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

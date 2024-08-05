@@ -1,0 +1,38 @@
+﻿services:
+  darynchat.redis:
+    container_name: redis_container
+    image: redis
+    ports:
+      - 6379:6379
+    restart: always
+#  darynchat.api:
+#    image: darynchat.api
+#    build:
+#      context: .  
+#      dockerfile: Dockerfile
+#    depends_on:
+#        sql_server:
+#           condition: service_started
+#           restart: true
+#
+#    ports:
+#      - 8080:8080
+#      - 8081:8081
+#    environment:
+#      - ASPNETCORE_ENVIRONMENT=Development
+#    networks:
+#      - chat-network
+#
+#  sql_server:
+#    image: mcr.microsoft.com/mssql/server
+#    container_name: docker_sqlserver
+#    environment:
+#        SA_PASSWORD: "I@hazgarm135."
+#        ACCEPT_EULA: "Y"
+#    ports:
+#      - 1433:1433
+#    networks:
+#      - chat-network
+#    
+#networks:
+#  chat-network:

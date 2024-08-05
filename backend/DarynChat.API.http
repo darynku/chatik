@@ -1,0 +1,6 @@
+@DarynChat.API_HostAddress = http://localhost:5186
+
+GET {{DarynChat.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
